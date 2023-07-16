@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.cart-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 0px;
+  width: 93vw;
+  height: 650px;
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
